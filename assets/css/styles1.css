@@ -1,0 +1,25 @@
+#comp_cloud image {
+  display: none;
+}
+
+#comp_cloud .is-active {
+  display: block;
+  transition: all 1s;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li .is-active {
+  color: blue;
+  /*font-size: large;*/
+  font-weight: 900;
+}
+
+svg a .is-active {
+  opacity: 0.4;
+  transition: all 1s;
+}
+
